@@ -1,15 +1,15 @@
-# 📘 Static Blog Monitoring
+# Static Blog Monitoring
 
 Proyek blog statis yang dideploy otomatis ke server dengan pipeline CI/CD, serta memiliki monitoring disk usage container dan notifikasi alert ke Discord.
 
-## 🚀 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 - **Static Site Generator:** Hugo / Jekyll
 - **CI/CD:** Jenkins + Docker
 - **Deployment:** Kubernetes
 - **Monitoring:** Prometheus, Node Exporter, Alertmanager
 - **Notification:** Discord Webhook
 
-## 🔁 Alur Kerja CI/CD
+## Alur Kerja CI/CD
 1. Artikel dipush ke repo
 2. Jenkins otomatis build blog statis
 3. Docker image dibuat dan dipush
@@ -17,7 +17,7 @@ Proyek blog statis yang dideploy otomatis ke server dengan pipeline CI/CD, serta
 5. Prometheus memantau disk usage
 6. Jika melebihi threshold → Alert ke Discord
 
-## 📂 Struktur Folder 
+## Struktur Folder 
 ```
 static-blog-monitoring/
 ├── blog-template/          # Artikel & tema blog Hugo
